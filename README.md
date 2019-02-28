@@ -22,7 +22,6 @@ pod install
 使用
 ```
 <AlipayCalendar
-   type={2}
    evaluateView={ (calendar) => {this.calendar = calendar} }
    confirm={this._confirm}
    defaultColor={'red'}
